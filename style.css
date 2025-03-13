@@ -1,0 +1,59 @@
+body{
+    margin: 0 auto;
+}
+#sidepanel{
+    background-color: rgba(77, 117, 187, 0.88);
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+}
+#upperpanel{
+    background-color: rgba(20, 49, 114, 1);
+    height: 60px;
+    width: 82%;
+    left: 250px;
+    position: fixed;
+}
+#bigbox{
+    height: 30rem;
+    width: 59rem;
+    background-color: rgb(221, 221, 221);
+    position: relative;
+    top: 100px;
+    left: 330px;
+    
+}
+.boxes{
+    background-color: rgba(20, 49, 114, 1);
+    margin: 1%;
+    float: left;
+    border-radius: 30px;
+    height: 90px;
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 30px;
+    display: flex;
+}
+#box1, #box2, #box3{
+    
+}
+.bigbox2{
+    margin: 3%;
+    border: 2px solid;
+    display: flex;
+    height: 18.5rem;
+    width: 55rem;
+    position: relative;
+    top: 30px;
+    
+}
+#text{
+    background-color: rgba(77, 117, 187, 0.88);
+    height: 25px;
+    width: 190px;
+    margin: 2%;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+
