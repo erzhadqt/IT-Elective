@@ -1,59 +1,134 @@
 body{
-    margin: 0 auto;
+ margin: 0;
 }
 #sidepanel{
     background-color: rgba(77, 117, 187, 0.88);
-    width: 250px;
     height: 100vh;
+    width: 14.5rem;
     position: fixed;
+    justify-items: center;
+    color: white;
 }
 #upperpanel{
     background-color: rgba(20, 49, 114, 1);
-    height: 60px;
-    width: 82%;
-    left: 250px;
+    width: 84vw;
+    height: 4rem;
     position: fixed;
+    left: 14.5rem;
+    /* display: flex; */
+    padding: .25rem;
 }
-#bigbox{
+.bigbox{
+    background-color: rgb(238, 238, 238);
+    width: 60rem;
     height: 30rem;
-    width: 59rem;
-    background-color: rgb(221, 221, 221);
-    position: relative;
-    top: 100px;
-    left: 330px;
+    position: fixed;
+    top: 7rem;
+    left: 20rem;
     
+}
+#upperbox{
+    display: flex;
+    justify-content: center;
+    margin: .5rem;
 }
 .boxes{
     background-color: rgba(20, 49, 114, 1);
-    margin: 1%;
-    float: left;
+    width: 170px;
+    height: 80px;
     border-radius: 30px;
-    height: 90px;
-    width: 200px;
-    margin-left: 80px;
-    margin-top: 30px;
-    display: flex;
-}
-#box1, #box2, #box3{
-    
-}
-.bigbox2{
     margin: 3%;
-    border: 2px solid;
     display: flex;
-    height: 18.5rem;
-    width: 55rem;
-    position: relative;
-    top: 30px;
+    padding: .1rem;
+    justify-content: center;
+}
+.boxes p{
+    color: white;
+    font-family: "Poppins";
+    font-weight: bold;
+
+}
+.lowerbox{
+    border: 1px solid;
+    height: 300px;
+    margin: 1%;
+    position: absolute;
+    width: 937.5px;
+}
+.lowerbox span{
+    margin: 1%;
+    background-color: rgba(77, 117, 187, 0.88);
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    height: 20px;
+    width: auto;
+    padding: .25rem;
+    font-family: "Poppins";
+}
+.boxes123{
+    position: absolute;
+    top: 5.5rem;
+    display: flex;
+    left: 2rem;
+}
+#box1, #box2, #box3, #box4{
+    margin: 2%;
+    border-radius: 25px;
+    background-color: rgba(20, 49, 114, 1);
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    padding: .5rem;
+}
+#box1 a, #box2 a, #box3 a, #box4 a{
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+#lacasa{
+    font-family: "";
+    font-size: 40px;
     
 }
-#text{
-    background-color: rgba(77, 117, 187, 0.88);
-    height: 25px;
-    width: 190px;
-    margin: 2%;
-    font-weight: bold;
-    color: white;
-    padding: 5px;
-}
+.sideboxes{
+    background-color: rgba(20, 49, 114, 1);
+    border-radius: 15px;
+    width: 150px;
+    height: 45px;
+    display: block;
+    margin: 1.5rem;
+    position: relative;
+    top: 3rem;
+    text-align: center;
 
+}
+.sideboxes a{
+    color: white;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+#upperpanel nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: bold;
+    margin: 1rem;
+    
+}
+#logout{
+    left: 65rem;
+    margin: 1rem;
+    position: absolute;
+}
+.fa-user{
+    font-size: 30px;
+    padding: 1rem;
+}
+#admin{
+    border: 1px solid;
+    position: absolute;
+}
